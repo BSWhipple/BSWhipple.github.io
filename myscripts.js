@@ -1,5 +1,8 @@
+window.onload=function(){
 const btn= document.getElementById("btn");
 
+        
+      
 btn.addEventListener('click', function(){
   var budget = document.getElementById("budget").value;
   var graph = document.getElementsByName('gcard');
@@ -30,3 +33,4 @@ btn.addEventListener('click', function(){
  // window.location.href = "CombinedParts.html"
 //alert("Budget: "+ graphholder);
 });
+}
