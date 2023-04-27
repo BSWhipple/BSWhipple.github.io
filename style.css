@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|PT+Sans');
+
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Libre Baskerville', serif
+}
+ul, ol {
+	list-style-position: inside
+}
+li {
+	text-indent: 20px;
+}
+.header {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	background-color: #1A2949;
+    overflow: hidden;
+    width: 100%;
+    margin: -8px;
+    height: 139px;
+    margin-bottom: 34px;
+}
+.headerTitle {
+	margin: 0;
+	color: white;
+	font-size: 3em
+}
+body {
+	
+	margin-right: -9px;
+}
