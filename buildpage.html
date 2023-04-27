@@ -1,14 +1,25 @@
 <html>
+  <head>
+  <title>
+    Build your own PC
+      </title>
+      <link rel="stylesheet" type="text/css" href="./style.css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script src="myscripts.js"></script>
+    </head>
 <body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-<script src="myscripts.js"></script>
+  <div class="header">
+    <h1 class="headerTitle">Build your own PC</h1>
+    </div>
+    <div class="sidebar"></div>
+
 <label> Budget for PC</label>
 <br><br>
-<input type="number" id="budget" placeholder="Enter Budget" required><br><br>
+<input type="number" id="budget" placeholder="Enter Budget" ><br><br>
 <label>Graphics Card Preference</label>
 <br><br>
 <form>
-<input type="radio" id="intel" name="gcard" value="Intel" required>
+<input type="radio" id="intel" name="gcard" value="Intel" >
 <label for="intel">Intel</label>
 <input type="radio" id="amd" name="gcard" value="AMD">
 <label for="amd">AMD</label>
@@ -17,7 +28,7 @@
 <label>Cooling Preferences</label>
 <br><br>
 <form>
-<input type="radio" id="water" name="cool" value="Water" required>
+<input type="radio" id="water" name="cool" value="Water" >
 <label for="intel">Water Cooled</label>
 <input type="radio" id="fan" name="cool" value="Fan">
 <label for="fan">Fan Cooled</label>
@@ -26,10 +37,21 @@
 <label>Motherboard</label>
 <br><br>
 <form>
-<input type="radio" id="wifi" name="wifi" value="WiFi" required>
+<input type="radio" id="wifi" name="wifi" value="WiFi" >
 <label for="intel">Wi-Fi Enabled</label>
 <input type="radio" id="nwifi" name="wifi" value="nWiFi">
 <label for="fan">Not Wi-Fi Enabled</label>
+</form>
+<br><br>
+<label>Are you using your PC for anything in particular?</label>
+<br><br>
+<form>
+<input type="radio" id="vid" name="ram" value="vid" >
+<label for="intel">Video Editing</label>
+<input type="radio" id="game" name="ram" value="game">
+<label for="fan">Gaming</label>
+<input type="radio" id="nei" name="ram" value="nei" >
+<label for="intel">Neither</label>
 </form>
 <br><br>
 <button id="btn">Submit</button>
