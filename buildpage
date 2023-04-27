@@ -1,0 +1,39 @@
+<html>
+<body>
+<script src="myscripts.js"></script>
+<label> Budget for PC</label>
+<br><br>
+<input type="number" id="budget" placeholder="Enter Budget" required><br><br>
+<label>Graphics Card Preference</label>
+<br><br>
+<form>
+<input type="radio" id="intel" name="gcard" value="Intel" required>
+<label for="intel">Intel</label>
+<input type="radio" id="amd" name="gcard" value="AMD">
+<label for="amd">AMD</label>
+</form>
+<br><br>
+<label>Cooling Preferences</label>
+<br><br>
+<form>
+<input type="radio" id="water" name="cool" value="Water" required>
+<label for="intel">Water Cooled</label>
+<input type="radio" id="fan" name="cool" value="Fan">
+<label for="fan">Fan Cooled</label>
+</form>
+<br><br>
+<label>Motherboard</label>
+<br><br>
+<form>
+<input type="radio" id="wifi" name="wifi" value="WiFi" required>
+<label for="intel">Wi-Fi Enabled</label>
+<input type="radio" id="nwifi" name="wifi" value="nWiFi">
+<label for="fan">Not Wi-Fi Enabled</label>
+</form>
+<br><br>
+<button id="btn">Submit</button>
+
+
+<div id="result"></div>
+<div id="result1"></div>
+<div id="result2"></div>
