@@ -113,7 +113,7 @@ switch(aGraphholder){
                 gpu = 16.5;
                 break;
 }
-alert(gpu);
+
 if(graphholder ==="Intel"){
         if(budgetCounter >= (gpu + 5.7)){
         document.getElementById("result").innerHTML
