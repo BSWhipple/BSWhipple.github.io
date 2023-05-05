@@ -102,13 +102,14 @@ if(console){
 switch(aGraphholder){
         case "3060":
                 gpu = 9.1;
-        case "3070":
-                gpu = 10;
-        case "3080":
-                gpu = 13.5;
-        case "3090":
-                gpu = 16.5;
+      //  case "3070":
+       //         gpu = 10;
+     //   case "3080":
+      //          gpu = 13.5;
+      //  case "3090":
+      //          gpu = 16.5;
 }
+
 if(graphholder ==="Intel"){
         if(budgetCounter >= (gpu + 5.7)){
         document.getElementById("result").innerHTML
