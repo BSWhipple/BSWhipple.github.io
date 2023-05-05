@@ -11,18 +11,49 @@
   <div class="header">
     <h1 class="headerTitle">Build your own PC</h1>
     </div>
-    <div class="sidebar"></div>
-
+    <div class="sidebar">
+      <a href="index.html">Home</a>
+  <a href="buildpage.html">Custom Build</a>
+    </div>
+  <div id="form">
 <label> Budget for PC</label>
 <br><br>
 <input type="number" id="budget" placeholder="Enter Budget" ><br><br>
-<label>Graphics Card Preference</label>
+<label>Chipset Preference</label>
 <br><br>
 <form>
 <input type="radio" id="intel" name="gcard" value="Intel" >
 <label for="intel">Intel</label>
 <input type="radio" id="amd" name="gcard" value="AMD">
 <label for="amd">AMD</label>
+</form>
+<br><br>
+<label>Graphics Card Preference</label>
+<br><br>
+<form>
+  <label>30 Series</label>
+<br><br>
+<input type="radio" id="3060" name="cardg" value="3060">
+<label for="3060">3060</label>
+<input type="radio" id="3070" name="cardg" value="3070">
+<label for="3070">3070</label>
+<input type="radio" id="3080" name="cardg" value="3080">
+<label for="3080">3080</label>
+<input type="radio" id="3090" name="cardg" value="3090" >
+<label for="3090">3090</label>
+<!----
+<br><br>
+<label>40 Series</label>
+<br><br>
+<input type="radio" id="4060" name="cardg" value="4060">
+<label for="4060">4060</label>
+<input type="radio" id="4070" name="cardg" value="4070">
+<label for="4070">4070</label>
+<input type="radio" id="4080" name="cardg" value="4080">
+<label for="4080">4080</label>
+<input type="radio" id="4090" name="cardg" value="4090" >
+<label for="4090">4090</label>
+---->
 </form>
 <br><br>
 <label>Cooling Preferences</label>
@@ -55,6 +86,7 @@
 </form>
 <br><br>
 <button id="btn">Submit</button>
+</div>
 
 
 <div id="result"></div>
