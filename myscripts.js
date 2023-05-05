@@ -102,14 +102,18 @@ if(console){
 switch(aGraphholder){
         case "3060":
                 gpu = 9.1;
-      //  case "3070":
-       //         gpu = 10;
-     //   case "3080":
-      //          gpu = 13.5;
-      //  case "3090":
-      //          gpu = 16.5;
+                break;
+        case "3070":
+                gpu = 10;
+                break;
+        case "3080":
+                gpu = 13.5;
+                break;
+       case "3090":
+                gpu = 16.5;
+                break;
 }
-
+alert(gpu);
 if(graphholder ==="Intel"){
         if(budgetCounter >= (gpu + 5.7)){
         document.getElementById("result").innerHTML
@@ -241,7 +245,7 @@ if(ramholder===("vid")){
                 window.open("https://www.amazon.com/GIGABYTE-REV2-0-WINDFORCE-GV-N3070GAMING-OC-8GD/dp/B098Q4M4WH/ref=sr_1_2?crid=3UKKL26G1PYAL&keywords=3070&qid=1683304836&sprefix=3070%2Caps%2C85&sr=8-2");
             })
 
-        } else if(aGraphHolder === ("3080")){
+        } else if(aGraphholder === ("3080")){
                 document.getElementById("result3").innerHTML
         = "EVGA Geforce RTX 3080 - $799.99";
         budget = budget - 799.99
