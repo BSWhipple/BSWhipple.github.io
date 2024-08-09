@@ -69,7 +69,7 @@ btn.addEventListener('click', function(){
 }
 
  }
-  window.open("CombinedParts.html");
+  window.open("combinedparts.html");
   
 //alert("Budget: "+ graphholder);
 });}
